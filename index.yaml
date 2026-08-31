@@ -7,7 +7,7 @@ entries:
       catalog.cattle.io/release-name: alchemi-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-08-31T17:20:26.7172693+05:30"
+    created: "2026-08-31T17:23:17.3289139+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -45,7 +45,7 @@ entries:
       for SUSE Rancher / AI Factory. Install as a Rancher App (guided form via questions.yaml)
       or reference as a single-component AI Factory Blueprint. One domain input fans
       out to the APISIX routes, Keycloak hostnames, and redirect URIs.
-    digest: 876872e97e3be63f0e54058c8d65509f1047f5dad195640e5200bd36f2dde4ba
+    digest: bdc1e6a79d119e882a43edff7a2fdf429199fdc17259e6df4a335f65a7c6f619
     home: https://alchemistudio.ai
     icon: https://alchemistudio.ai/favicon.ico
     kubeVersion: '>=1.27.0-0'
@@ -56,4 +56,4 @@ entries:
     urls:
     - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemi-platform-1.1.0.tgz
     version: 1.1.0
-generated: "2026-08-31T17:20:26.7077896+05:30"
+generated: "2026-08-31T17:23:17.3178716+05:30"
