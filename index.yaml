@@ -58,7 +58,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.20.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.20.tgz
     version: 1.0.20
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -117,7 +117,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.19.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.19.tgz
     version: 1.0.19
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -176,7 +176,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.18.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.18.tgz
     version: 1.0.18
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -235,7 +235,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.17.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.17.tgz
     version: 1.0.17
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -294,7 +294,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.16.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.16.tgz
     version: 1.0.16
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -353,7 +353,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.15.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.15.tgz
     version: 1.0.15
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -412,7 +412,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.14.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.14.tgz
     version: 1.0.14
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -471,7 +471,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.13.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.13.tgz
     version: 1.0.13
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -530,7 +530,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.12.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.12.tgz
     version: 1.0.12
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -589,7 +589,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.11.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.11.tgz
     version: 1.0.11
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -648,7 +648,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.10.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.10.tgz
     version: 1.0.10
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -707,7 +707,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.9.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.9.tgz
     version: 1.0.9
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -766,7 +766,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.8.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.8.tgz
     version: 1.0.8
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -825,7 +825,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.7.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.7.tgz
     version: 1.0.7
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -884,7 +884,7 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.6.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.6.tgz
     version: 1.0.6
   - annotations:
       catalog.cattle.io/display-name: AlchemiStudio Platform
@@ -943,6 +943,6 @@ entries:
     - https://alchemistudio.ai
     type: application
     urls:
-    - https://alchemistudio.ai/alchemistudio-platform-1.0.3.tgz
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.3.tgz
     version: 1.0.3
 generated: "2026-09-12T00:41:13.8758089+05:30"
