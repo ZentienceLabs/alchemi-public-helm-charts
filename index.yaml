@@ -7,7 +7,66 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.6779329+05:30"
+    created: "2026-10-15T06:44:57.1637526+05:30"
+    dependencies:
+    - condition: keycloak.enabled
+      name: alchemi-keycloak
+      repository: oci://alchemiacr.azurecr.io/helm
+      version: 1.0.5
+    - condition: web.enabled
+      name: alchemi-web
+      repository: oci://alchemiacr.azurecr.io/helm
+      version: 1.0.5
+    - condition: ai.enabled
+      name: alchemi-ai
+      repository: oci://alchemiacr.azurecr.io/helm
+      version: 1.0.5
+    - condition: computeApi.enabled
+      name: alchemi-compute-api
+      repository: oci://alchemiacr.azurecr.io/helm
+      version: 1.0.5
+    - condition: worker.enabled
+      name: alchemi-worker
+      repository: oci://alchemiacr.azurecr.io/helm
+      version: 1.0.5
+    - condition: zenith.enabled
+      name: alchemi-zenith
+      repository: oci://alchemiacr.azurecr.io/helm
+      version: 1.0.5
+    - condition: guardrails.enabled
+      name: alchemi-guardrails
+      repository: oci://alchemiacr.azurecr.io/helm
+      version: 1.0.5
+    - condition: eso.enabled
+      name: external-secrets
+      repository: https://charts.external-secrets.io
+      version: 0.10.3
+    description: Alchemi AI platform (web, ai, compute, workers, guardrails, auth)
+      for SUSE Rancher / AI Factory. Install as a Rancher App (guided form via questions.yaml)
+      or reference as a single-component AI Factory Blueprint. One domain input fans
+      out to the APISIX routes, Keycloak hostnames, and redirect URIs.
+    digest: 29a34677994aa58e30566e76f7f4d188215f92a8b52a8b1e6fd50bd989d705ee
+    home: https://alchemistudio.ai
+    icon: https://alchemistudio.ai/favicon.ico
+    kubeVersion: '>=1.27.0-0'
+    maintainers:
+    - email: support@alchemistudio.ai
+      name: AlchemiStudio
+      url: https://alchemistudio.ai
+    name: alchemistudio-platform
+    sources:
+    - https://alchemistudio.ai
+    type: application
+    urls:
+    - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.25.tgz
+    version: 1.0.25
+  - annotations:
+      catalog.cattle.io/display-name: AlchemiStudio Platform
+      catalog.cattle.io/kube-version: '>=1.27.0-0'
+      catalog.cattle.io/release-name: alchemistudio-platform
+    apiVersion: v2
+    appVersion: 1.1.0
+    created: "2026-10-15T06:44:57.1494993+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -66,7 +125,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.6653016+05:30"
+    created: "2026-10-15T06:44:57.1393105+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -125,7 +184,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.6512133+05:30"
+    created: "2026-10-15T06:44:57.1181793+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -184,7 +243,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.6397061+05:30"
+    created: "2026-10-15T06:44:57.1075196+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -243,7 +302,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.626944+05:30"
+    created: "2026-10-15T06:44:57.0952716+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -302,7 +361,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.6142493+05:30"
+    created: "2026-10-15T06:44:57.0833273+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -361,7 +420,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.6002004+05:30"
+    created: "2026-10-15T06:44:57.0689458+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -420,7 +479,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.5866383+05:30"
+    created: "2026-10-15T06:44:57.0582734+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -479,7 +538,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.5727353+05:30"
+    created: "2026-10-15T06:44:57.0449322+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -538,7 +597,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.559343+05:30"
+    created: "2026-10-15T06:44:57.0334289+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -597,7 +656,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.5431742+05:30"
+    created: "2026-10-15T06:44:57.021173+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -656,7 +715,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.5281137+05:30"
+    created: "2026-10-15T06:44:57.0092456+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -715,7 +774,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.5157042+05:30"
+    created: "2026-10-15T06:44:56.9938709+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -774,7 +833,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.5026601+05:30"
+    created: "2026-10-15T06:44:56.9789436+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -833,7 +892,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.7408344+05:30"
+    created: "2026-10-15T06:44:57.2744231+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -892,7 +951,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.7273091+05:30"
+    created: "2026-10-15T06:44:57.2585154+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -951,7 +1010,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.7153562+05:30"
+    created: "2026-10-15T06:44:57.2427479+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -1010,7 +1069,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.7020805+05:30"
+    created: "2026-10-15T06:44:57.1919413+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -1069,7 +1128,7 @@ entries:
       catalog.cattle.io/release-name: alchemistudio-platform
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-12T02:26:29.6910455+05:30"
+    created: "2026-10-15T06:44:57.1779524+05:30"
     dependencies:
     - condition: keycloak.enabled
       name: alchemi-keycloak
@@ -1122,4 +1181,4 @@ entries:
     urls:
     - https://zentiencelabs.github.io/alchemi-public-helm-charts/alchemistudio-platform-1.0.3.tgz
     version: 1.0.3
-generated: "2026-09-12T02:26:29.4869662+05:30"
+generated: "2026-10-15T06:44:56.9582416+05:30"
